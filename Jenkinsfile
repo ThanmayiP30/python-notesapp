@@ -5,7 +5,7 @@ pipeline {
         stage("Clone Code"){
             steps {
                 echo "Cloning the code"
-                git url:"https://github.com/ThanmayiP30/python-notesapp/.git", branch: "master"
+                git url:"https://github.com/ThanmayiP30/python-notesapp.git", branch: "master"
             }
         }
         stage("Build"){
